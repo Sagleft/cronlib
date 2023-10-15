@@ -1,4 +1,4 @@
-package simplecron
+package cronlib
 
 import (
 	"sync"

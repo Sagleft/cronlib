@@ -1,4 +1,4 @@
-package simplecron
+package cronlib
 
 import "time"
 
@@ -33,7 +33,6 @@ func (r *RunTimeLimitHandler) Run() bool {
 		if !timer.Stop() {
 			<-timer.C
 		}
-		return
 	}()
 
 	return <-done
