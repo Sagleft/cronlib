@@ -1,6 +1,12 @@
 # simple-cron
 Library to run func by cron. Also to limit func runtime. Written in Golang
 
+## install
+
+```bash
+go get github.com/Sagleft/cronlib
+```
+
 ### usage example
 
 ```go
